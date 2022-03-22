@@ -1,0 +1,50 @@
+Aula Coleções
+coleções chaveadas
+
+-Map
+--Estrutura, métodos e map vs objeto
+- estrutura: uma coleção de arrays no formato [ chave, valor].
+pode iterado por um loop for...of
+declaração new map()
+
+-métodos: adicionar, ler e deletar
+>mymap.set -para adicionar
+>mymap.get -para verificar
+>mymap.delete -para deletar
+
+-map vc objeto:
+>maps podem ter chaver de qualquer tipo;
+>maps possuem a propriedade length;
+>maps são mais fáceis de interar;
+>utilizando o calor das chaves é desconhecido;
+>os valores tem o mesmo tipo;
+
+-Set
+-- Estrutura, métodos e set vs array
+-estrutura:
+>sets são estruturas que armazenam apenas VALORES ÚNICOS;
+declarado como new set()
+-metodos:
+>mySet.add()- adicionar
+>mySet.has () -verificar se existe valor
+>myset.delete()- deletar 
+
+-set vs array:
+>possui valores unicos;
+>em vez da propriedade length, consulta-se o número de registro 
+pela propriedade size;
+>não possui os métodos map, filter, reduce etc..
+
+--atividades práticas
+#atividade 1: Maps
+Crie uma função que retorna o nome dos membros de um Map que tem o papel 'ADMIN' no sistema.
+
+    1.Crie uma função getAdmins que recebe um Map;
+    2.Crie um Map e popule-o com nomes de usuários e seus papeis
+ no sistema. (Ex: 'Luiz' => 'Admin');
+    3.Dentro de getAdmins, utilize o loop for...of para retornar uma lista
+ com os nomes dos usu;arios que são administradores.
+
+#atividade 2:Sets
+Dado o array [30, 30, 40, 5, 223, 2049, 3034, 5], retorne outro array 
+apenas com valores únicos.
